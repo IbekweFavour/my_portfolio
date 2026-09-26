@@ -522,8 +522,12 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
+
+                <div class="col-md-12 d-none" aria-hidden="true">
+                  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+                </div>
 
                 <div class="col-md-6">
                   <label for="name-field" class="pb-2">Your Name</label>
@@ -595,6 +599,7 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/contact-endpoint.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
