@@ -5,13 +5,7 @@
 (function () {
   'use strict';
 
-  var API_BASE = 'https://YOUR_VERCEL_PROJECT.vercel.app';
-
-  if (API_BASE.indexOf('YOUR_VERCEL_PROJECT') !== -1) {
-    console.warn(
-      'Contact form: set API_BASE in assets/js/contact-endpoint.js after deploying the API to Vercel.'
-    );
-  }
+  var API_BASE = 'https://myportfolio-navy-seven-46.vercel.app';
 
   var endpoint = API_BASE + '/api/contact';
 
